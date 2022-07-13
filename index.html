@@ -1,0 +1,173 @@
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">  
+<title>Tade in form</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container">
+        <form id="TradeInForm">
+            <div class="heading">
+                <span class="headingSpan">Trade-In Form</span>
+            </div>
+            <div class="product">
+                <label for="productType" class="selects">SELECT PRODUCT</label>
+                <br>
+                <input type="text" class="input" id="productType" name="productType" list="list1" autocomplete="off">
+                <datalist id="list1">
+                  <option id="Mac"> Mac </option>
+                  <option id="iPhone"> iPhone </option>
+                  <option idid="iPad"> iPad </option>
+                </datalist>
+                <p class="error1">Select a Valid Product</p>
+            </div>
+
+            <div class="specificMac" id="specificMac">
+                <label for="productSpecific" class="selects">SELECT YOUR Mac</label>
+                <br>
+                <input type="text" class="input" id="productSpecificMac" name="productSpecificMac" list="list2a" autocomplete="off">
+                <datalist id="list2a">
+                    <option> MacBook Air 13" 2017 - Core i5 - 5350U - 8GB </option>
+                    <option> MacBook Air Retina 13" 2018 - Core i5 - 8210Y - 8GB </option>
+                    <option> MacBook Air Retina 13" 2019 - Core i5 - 8210Y - 8GB </option>
+                    <option> MacBook Pro 13" 2017 2 TBT3 - Core i5 - 7360U - 8GB </option>
+                    <option> MacBook Pro 13" 2018 4 TBT3 - Core i5 - 8259U - 8GB </option>
+                    <option> MacBook Pro M1 Pro 14" </option>
+                    <option> MacBook Pro M1 Pro 16" </option>
+                    <option> MacBook Pro M1 Max 14" </option>
+                    <option> MacBook Pro M1 Max 16" </option>
+                    <option> MacBook Pro M1 13" </option>
+                    <option> MacBook Air M1 13" </option>
+                    <option> Mac Studio M1 Max - 10 Core CPU - 24 Core GPU </option>
+                    <option> Mac Studio M1 Ultra 20 Core CPU - 48 Core GPU </option>
+                    <option> Mac Mini M1 - 8 Core GPU </option>
+                    <option> iMac 24" M1 - 7 Core </option>
+                    <option> iMac 24" M1 - 8 Core </option>
+                    <option> iMac 27" 3.1GHz - 6 Core i5 </option>
+                    <option > iMac 27" 3.3GHz - 6 Core i5 </option>
+                </datalist>
+                <p class="error1">Select a Valid Product</p>
+            </div>
+
+            <div class="specificiPhone" id="specificiPhone">
+                <label for="productSpecific" class="selects">SELECT YOUR iPhone</label>
+                <br>
+                <input type="text" class="input" id="productSpecificiPhone" name="productSpecificiPhone" list="list2b" autocomplete="off">
+                <datalist id="list2b">
+                    <option> iPhone 13 mini </option>
+                    <option> iPhone 13 </option>
+                    <option> iPhone 13 Pro </option>
+                    <option> iPhone 13 Pro Max </option>
+                    <option> iPhone 12 mini </option>
+                    <option> iPhone 12 </option>
+                    <option> iPhone 12 Pro </option>
+                    <option> iPhone 12 Pro Max </option>
+                    <option> iPhone 11 </option>
+                    <option> iPhone 11 Pro </option>
+                    <option> iPhone 11 Pro Max </option>
+                    <option> iPhone SE 2022 </option>
+                    <option> iPhone XR </option>
+                    <option> iPhone Xs </option>
+                    <option> iPhone Xs Plus </option>
+                    <option> iPhone X </option>
+                    <option> iPhone 8 </option>
+                    <option> iPhone 8 Plus </option>
+                    <option> iPhone 7 </option>
+                    <option> iPhone 7 Plus </option>
+                </datalist>
+                <p class="error1">Select a Valid Product</p>
+            </div>
+
+            <div class="specificiPad" id="specificiPad">
+                <label for="productSpecific" class="selects">SELECT YOUR iPad</label>
+                <br>
+                <input type="text" class="input" id="productSpecificiPad" name="productSpecificiPad" list="list2c" autocomplete="off">
+                <datalist id="list2c">
+                    <option> iPad 10.2" 2019 WiFi + Cellular </option>
+                    <option> iPad 10.2" 2019 WiFi </option>
+                    <option> iPad 9.7" 2017 WiFi + Cellular </option>
+                    <option> iPad 9.7" 2017 WiFi </option>
+                    <option> iPad 9.7" 2018 WiFi + Cellular </option>
+                    <option> iPad 9.7" 2018 WiFi </option>
+                    <option> iPad Air WiFi + Cellular </option>
+                    <option> iPad Air WiFi </option>
+                    <option> iPad Air 2 WiFi + Cellular </option>
+                    <option> iPad Air 2 WiFi </option>
+                    <option> iPad mini 4 WiFi + Cellular </option>
+                    <option> iPad mini 4 WiFi </option>
+                    <option> iPad Pro 2016 9.7" WiFi + Cellular </option>
+                    <option> iPad Pro 2016 9.7" WiFi </option>
+                    <option> iPad Pro 2017 10.5" WiFi + Cellular </option>
+                    <option> iPad Pro 2017 10.5" WiFi </option>
+                    <option> iPad Pro 2017 12.9" WiFi + Cellular </option>
+                    <option> iPad Pro 2017 12.9" WiFi </option>
+                    <option> iPad Pro 2018 11" WiFi + Cellular </option>
+                    <option> iPad Pro 2018 11" WiFi </option>
+                    <option> iPad mini 6 WiFi + Cellular </option>
+                    <option> iPad mini 6 WiFi </option>
+                    <option> iPad 9th Gen WiFi + Cellular </option>
+                    <option> iPad 9th Gen WiFi </option>
+                    <option> iPad 8th Gen WiFi + Cellular </option>
+                    <option> iPad 8th Gen WiFi </option>
+                    <option> iPad Air 5th Gen WiFi + Cellular </option>
+                    <option> iPad Air 5th Gen WiFi </option>
+                    <option> iPad Air 4th Gen WiFi + Cellular </option>
+                    <option> iPad Air 4th Gen WiFi </option>
+                    <option> iPad Pro M1 11" WiFi + Cellular </option>
+                    <option> iPad Pro M1 11" WiFi </option>
+                    <option> iPad Pro M1 12.9" WiFi + Cellular </option>
+                    <option> iPad Pro M1 12.9" WiFi </option>
+                </datalist>
+                <p class="error1">Select a Valid Product</p>
+            </div>
+
+            <div class="capacity">
+                <label for="productCapacity" class="selects">SELECT CAPACITY</label>
+                <br>
+                <input type="text" class="input" id="productCapacity" name="productCapacity" list="list3" autocomplete="off">
+                <datalist id="list3">
+                  <option class="capacity l n o q " disabled>32GB</option>
+                  <option class="capacity i j m o p" disabled>64GB</option>
+                  <option class="capacity a g h i l n o p r" disabled>128GB</option>
+                  <option class="capacity a b d g h i j l m r" disabled>256GB</option>
+                  <option class="capacity b c f g h j r" disabled>512GB</option>
+                  <option class="capacity c e h r" disabled>1TB</option>
+                  <option class="capacity r" disabled>2TB</option>
+                </datalist>
+                <p class="error3">Select a Valid Capacity</p>
+            </div>
+
+            <div class="condition">
+            <span class="selects">SELECT CONDITION</span>
+            <br>
+            <div class="allCheckboxes">
+            <label class="checkboxLabel">
+                <input type="checkbox" class="checkboxes" onChange="RotateCheckbox(this)">
+                <span>Great</span>
+            </label>
+            <br>
+            <label class="checkboxLabel">
+                <input type="checkbox" class="checkboxes" onChange="RotateCheckbox(this)">
+                <span>Good</span>
+            </label>
+            <br>
+            <label class="checkboxLabel">
+                <input type="checkbox" class="checkboxes" onChange="RotateCheckbox(this)">
+                <span>Fair</span>
+            </label>
+            <p id="error4">Select Device Condition</p>
+            </div>
+        </div>
+        </form>
+        
+        <p id="tradein">Trade-In Value:</p> <p id="amount"></p>
+        <p id="subjectToChange">Trade-In value subject to change</p>
+        <button id="submit" type="submit" value="submit" form="TradeInForm">Calculate trade-in</button>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
